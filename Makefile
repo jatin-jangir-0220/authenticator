@@ -18,9 +18,6 @@ build: clean
 wire:
 	wire
 
-clean:
-	rm -f authenticator
-
 run: build
 	./authenticator
 
