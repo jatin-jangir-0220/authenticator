@@ -47,7 +47,7 @@ type K8sClient struct {
 
 type RuntimeConfig struct {
 	LocalDevMode                LocalDevMode `env:"RUNTIME_CONFIG_LOCAL_DEV" envDefault:"false"`
-	DevtronDefaultNamespaceName string       `env:"DEVTRON_DEFAULT_NAMESPACE" envDefault:"devtroncd"`
+	DevtronDefaultNamespaceName string       `env:"DEVTRON_DEFAULT_NAMESPACE" envDefault:"devtroncd-jatin"`
 }
 
 func GetRuntimeConfig() (*RuntimeConfig, error) {
